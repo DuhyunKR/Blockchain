@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html= lang="ko">
+<head>
+  <title>Register</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href=
+  "{{url_for('static', filename='css/register.css')}}">
+</head>
+<body>
+  <form action="/result.html" method="POST">
+    <fieldset id="field">
+      <legend> 회원가입 </legend>
+      <label for="Name"> 닉네임 </label>
+      <input type="text" id="Name" placeholder="닉네임"><br><br>
+      <label for="ID"> 아이디 </label>
+      <input type="text" id="ID" placeholder="아이디"><br><br>
+      <label for="PW"> 비밀번호 </label>
+      <input type="password" id="PW" placeholder="비밀번호"><br><br>
+      <label for="PW2"> 비밀번호 확인 </label>
+      <input type="password" id="PW2" placeholder="비밀번호 확인">
+    </fieldset>
+    <div>
+      <input type="submit" value=" 신청하기 ">
+      <input type="reset" value=" 다시 작성 ">
+    </div>
+    </form>
+  </body>
+</html>
