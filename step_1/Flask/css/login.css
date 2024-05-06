@@ -1,0 +1,33 @@
+input[type=text],[type=password] {
+  width: 100%;
+  padding:15px;
+  box-sizing: border-box;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding-left: 30px;
+}
+fieldset{
+  margin:auto;
+  width: 25%;
+  border-radius: 10px;
+  font-size: 20px;
+  margin-top: 180px;
+}
+
+legend{
+  font-weight: bold;
+  text-align: center;
+  font-size: 50px;
+}
+div{
+    text-align: center;
+}
+input[type=submit],[type=reset]{
+  font-size: 20px;
+  border-radius: 10px;
+  margin-top: 5px;
+}
+body{
+  height: 80vh;
+  background: linear-gradient(to right bottom, rgb(23, 23, 213), white);
+}
