@@ -1,4 +1,4 @@
-## 블록체인 노드 구축 연습
+## Blockchain node building practice
 
-<p>VS code- jupyter</p>
-<p>Python</p>
+<p>IDE: VS code- jupyter</p>
+<p>Language: Python</p>
