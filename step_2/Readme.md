@@ -1,4 +1,4 @@
 ## 블록체인 노드 구축 연습
 
-VS code- jupyter
-Python
+<p>VS code- jupyter</p>
+<p>Python</p>
